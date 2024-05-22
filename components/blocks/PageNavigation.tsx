@@ -8,7 +8,7 @@ export const PageNavigation: React.FC = () => (
     <h2>Page Navigation</h2>
     <ul>
       <li>
-        <Link href={AppRoute.HOME}>Home</Link>
+        <Link href={AppRoute.HOME}>Domů</Link>
       </li>
     </ul>
   </nav>
