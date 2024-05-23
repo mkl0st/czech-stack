@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs">
-      <body>
+      <body className="flex min-h-screen flex-col">
         <PageNavigation />
         {children}
         <PageFooter />
